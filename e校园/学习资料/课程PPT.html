@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>课程PPT</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+ <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    
+  </body>
+  <body >
+    <nav class="navbar navbar-default">
+
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">E学习</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="../../e校园/主页面/主页/main.html">主页<span class="sr-only">(current)</span></a></li>
+        <li><a href="#"data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">提问</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">解决 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="../难题解答/pages/难题解答.html">学习问题</a></li>
+            <li><a href="../../e校园/二手交易/simple-product.html">生活问题</a></li>
+            <li><a href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">搜索  </button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="课程PPT.html">课程PPT</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">查看<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="学习笔记.html">学习笔记</a></li>
+            <li><a href="历年考题.html">历年考题</a></li>
+            <li><a href="../../e校园/难题解答/pages/难题解答.html">难题解答</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="bd-example">
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            <span class="sr-only">Close</span>
+          </button>
+          <h4 class="modal-title" id="exampleModalLabel" >提出你的问题</h4>
+          <p></p><input type="label" class="biaoqian2"value="描述精确的需求更容易得到帮助">
+          <style type="text/css">
+              .modal-title{text-align: center;font-weight:bold;font-size:20px;}        
+              .biaoqian2{width: 550px;text-align: center;border-style: none;color:gray;}
+          </style>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="control-label">问题标题:</label>
+              <input type="text" class="form-control" id="recipient-name" maxlength="20" value="请输入问题标题.." onfocus="if (value =='请输入问题标题..'){value =''}"  onblur="if (value =='')
+                  {value='请输入问题标题..'}" >
+              <input type="label" class="biaoqian3"value="问题类型(请选择最接近的情况以便归类)">
+              <style type="text/css">       
+                .biaoqian3{border-style: none;width:400px;position:relative;left:0;}
+                .kemu{position:relative;width:100%;height:40px;left:0%;}
+              </style>
+
+              <select class="kemu">
+                <option value="volvo">问题求教</option>
+                <option value="saab">请求笔记</option>
+                <option value="opel">帮忙代课(实验)</option>
+                <option value="audi">学习资源</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="control-label" >详细描述:</label>
+              <textarea class="form-control" id="message-text"cols="50" rows="5" class="miaoshu" onfocus="if(value=='请简明扼要的说明您的问题，限256字'){value=''}"  onblur="if (value ==''){value='请简明扼要的说明您的问题，限256字'}">请简明扼要的说明您的问题，限256字</textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+          <button type="button" class="btn btn-primary">提交</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/demo.css">
+  <link rel="stylesheet" href="css/app.css">
+  <title>轮播</title>
+  <body>
+    <DIV>
+      <div class="slider">
+        <div class="slider-img">
+          <ul class="slider-img-ul">
+            <li><a href="http://baidu.com"><img src="images/slider-5.jpg"></a></li>
+            <li><a href="http://baidu.com"><img src="images/slider-1.jpg"></a></li>
+            <li><a href="http://baidu.com"><img src="images/slider-2.jpg"></a></li>
+            <li><a href="http://baidu.com"><img src="images/slider-3.jpg"></a></li>
+            <li><a href="http://baidu.com"><img src="images/slider-4.jpg"></a></li>
+            <li><a href="http://baidu.com"><img src="images/slider-5.jpg"></a></li>
+            <li><a href="http://baidu.com"><img src="images/slider-1.jpg"></a></li>
+          </ul>
+        </div>
+      </div>
+      <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+      <script type="text/javascript" src="js/xSlider.js"></script>
+    </body>
+  </DIV>
+  <LINK rel=stylesheet type=text/css href="css/课程PPT.css">
+    <body>
+      <Div>
+        <div id="div6">
+          <p class="t1">
+            线性代数
+          </p>
+          <img class="p1" src="images/03.png">
+          <img class="p2" src="images/04.png">
+          <img class="p3" src="images/05.png">
+          <img class="p4" src="images/06.png">
+          <ul class="l1">
+            <li>
+              <label class="a_btn_jia" for="xFile">＋</label>
+              <form>
+                <input class="s1" type="file" id="xFile">
+              </form>
+            </li>
+          </ul>
+        </div>
+    <div id="div7">
+			<p class="t2">
+				高数
+			</p>
+			<img class="p1" src="images/07.png">
+			<img class="p2" src="images/08.png">
+			<img class="p3" src="images/09.png">
+			<img class="p4" src="images/10.png">
+			<img class="p5" src="images/11.png">
+			<ul class="l2">
+				<li>
+					<label class="a_btn_jia1" for="xFile">＋</label>
+					<form>
+						<input class="s1" type="file" id="xFile">
+					</form>
+				</li>
+			</ul>
+		</div>
+		<div id="div8">
+			<ul class="l3">
+				<li>
+					<label class="a_btn_jia2" for="xFile">＋</label>
+					<form>
+						<input class="s1" type="file" id="xFile">
+					</form>
+				</li>
+			</ul>		
+		</div>
+			</Div>
+		<div class="bottom">
+            <a href="http://exuexi.com/" target="_blank">
+				<img src="images/02.png" width=“80px” height="40px" alt=""></a>
+			<a href="#" rel="nofollow">关于我们</a>|
+			<a href="#" rel="nofollow">软件下载</a>|
+			<a href="#" rel="nofollow">联系我们</a>|
+			<a href="#" rel="nofollow">帮助中心</a>|
+		  <br />
+      <a href="#">©2018电子商务系项目制第三组</a>
+		</div>
+	</body>
+</html>

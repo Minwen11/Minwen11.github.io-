@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>主页</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+  <body background="../images/bj_zhuce.jpg">
+    <nav class="navbar navbar-default">
+
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">E学习</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="..\..\主页面\主页/main.html">主页<span class="sr-only">(current)</span></a></li>
+        <li><a href="#"data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">提问</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">解决 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="../../难题解答/pages/难题解答.html">学习问题</a></li>
+            <li><a href="../../难题解答/pages/难题解答.html">生活问题</a></li>
+            
+          </ul>
+          <li><a href="..\..\难题解答\pages/难题解答.html"data-toggle="modal"  data-whatever="@mde">写想法</a></li>
+          <li><a href="..\..\难题解答\pages/难题解答.html"data-toggle="modal"  data-whatever="@mde">写文章</a></li>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">搜索  </button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="..\..\二手交易/simple-product.html">物品买卖</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">资料库 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="../../学习资料/历年考题.html">历年考题</a></li>
+            <li><a href="../../学习资料/课程PPT.html">课程文件</a></li>
+            <li><a href="../../学习资料/学习笔记.html">学习笔记</a></li>
+            <li role="separator" class="divider"></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="bd-example">
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            <span class="sr-only">Close</span>
+          </button>
+          <h4 class="modal-title" id="exampleModalLabel" >提出你的问题</h4>
+          <p></p><input type="label" class="biaoqian2"value="描述精确的需求更容易得到帮助">
+          <style type="text/css">
+              .modal-title{text-align: center;font-weight:bold;font-size:20px;}        
+              .biaoqian2{width: 550px;text-align: center;border-style: none;color:gray;}
+          </style>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="control-label">问题标题:</label>
+              <input type="text" class="form-control" id="recipient-name" maxlength="20" value="请输入问题标题.." onfocus="if (value =='请输入问题标题..'){value =''}"  onblur="if (value =='')
+                  {value='请输入问题标题..'}" >
+              <input type="label" class="biaoqian3"value="问题类型(请选择最接近的情况以便归类)">
+              <style type="text/css">       
+                .biaoqian3{border-style: none;width:400px;position:relative;left:0;}
+                .kemu{position:relative;width:100%;height:40px;left:0%;}
+              </style>
+
+              <select class="kemu">
+                <option value="volvo">问题求教</option>
+                <option value="saab">请求笔记</option>
+                <option value="opel">帮忙代课(实验)</option>
+                <option value="audi">学习资源</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="control-label" >详细描述:</label>
+              <textarea class="form-control" id="message-text"cols="50" rows="5" class="miaoshu" onfocus="if(value=='请简明扼要的说明您的问题，限256字'){value=''}"  onblur="if (value ==''){value='请简明扼要的说明您的问题，限256字'}">请简明扼要的说明您的问题，限256字</textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+          <button type="button" class="btn btn-primary">提交</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+  <ul class="C1">
+    <li role="presentation" class="active"><a href="">只为你的生活更容e</a></li>
+  </ul>
+<style type="text/css">
+  .C1{position: absolute;left: 30%;top:35%;}
+  .C1 li{display:inline;}
+  .C1 li a{font:normal bold 70px "华文彩云";text-decoration: none;color:antiquewhite;}
+</style>
+</div>
+<ul class="c2">
+  <li>
+    <a class="a1" href="../../难题解答/pages/难题解答.html">难题解答</a>
+  </li>
+ <br/>
+  <li>
+    <a class="a2" href="../../学习资料/学习资源.html">学习资源</a>
+  </li>
+  <br/>
+  <li>
+    <a class="a3" href="../../二手交易/simple-product.html">二手交易</a>
+  </li>
+</ul>
+<style type="text/css">
+  .c2{position: absolute;left: 42%;top:55%;}
+  .c2 li{display:inline;}
+  .c2 li a{font:normal bold 40px "行楷";color:#E1E4A9;text-decoration:none;line-height:53px;}
+  .c2 li a:hover{text-decoration:none; color:#909090;font:normal bold 43px "行楷";}
+  .c2 li a:visited{text-decoration: overline;color:aliceblue;}
+</style>
+</body>
+</html>

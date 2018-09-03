@@ -1,0 +1,289 @@
+#div6{
+  float:left;
+  height:190px;
+  width:330px;
+  margin-top:15px;
+  margin-left:90px;
+  margin-bottom:50px;
+  border:1px black;
+  background-color:#E1E4B9;
+}
+p.t1{
+  padding-top:20px;
+  font:normal bold 24px "微软雅黑";
+  text-align:center;
+  color:#8D8070;
+}
+p.t2{
+  font:normal bold 14px "微软雅黑";
+  text-align:center;
+  color:#B8A48C;
+}
+.c1 li{
+	float:left;
+	display:inline;
+}
+.a_btn_standard1 {
+			  font:normal  bold 15px "微软雅黑"; 
+			  width: 100px;
+			  height: 35px; 
+			  line-height:30px;
+			  display: block;
+			  text-align: center;
+			  cursor: pointer; 
+			  color:#FFFFFF;
+			  background-color: #B8A48C;
+			  padding-top:3px;
+              margin-left:40px;
+			  margin-top:21px;
+			  transition: all 0.50s ease-in-out;
+			  -webkit-transition: all 0.50s ease-in-out;
+			  -moz-transition: all 0.50s ease-in-out;
+			  outline: none; 
+			  -moz-border-radius: 5px; 
+			  -webkit-border-radius: 5px;
+			  border-radius: 5px; 
+			  filter: progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=2); /*ie*/ }
+.a_btn_standard1:hover { 
+			  width: 100px;
+			  height: 40px; 
+			  line-height: 35px; 
+			  display: block; 
+			  cursor: pointer;
+			  text-align: center; 
+			  color:#FFFFFF;
+			  text-decoration:none;
+}
+.s1{
+  position:absolute;
+  clip:rect(0 0 0 0);
+}
+.a_btn_jia {  
+			  font:normal  bold 44px "微软雅黑"; 
+			  width: 100px; 
+			  height: 35px; 
+			  line-height:30px;
+			  display: block;
+			  text-align: center; 
+			  cursor: pointer; 
+			  color: #FFFFFF;
+			  background-color: #918D6F;
+			  margin-top:21px;
+              margin-left:50px;
+			  transition: all 0.50s ease-in-out;
+			  -webkit-transition: all 0.50s ease-in-out;
+			  -moz-transition: all 0.50s ease-in-out; 
+			  outline: none; 
+			  -moz-border-radius: 5px; 
+			  -ebkit-border-radius: 5px;
+			  border-radius: 5px; 
+			  filter: progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=2); /*ie*/ }
+.a_btn_jia:hover {  
+			  width: 100px; 
+			  height: 40px; 
+			  line-height: 35px;
+			  display: block; 
+			  cursor: pointer;
+			  text-align: center;
+			  color: white;
+			 text-decoration:none;
+}
+#div7{
+  float:left;
+  height:190px;
+  width:330px;
+  margin-top:15px;
+  margin-left:100px;
+  margin-bottom:50px;
+  border:1px black;
+  background-color:#CFE5B7;
+}
+P.t3{
+  padding-top:20px;
+  font:normal bold 24px "微软雅黑";
+  text-align:center;
+  color:#748621;
+}
+p.t4{
+  font:normal bold 14px "微软雅黑";
+  text-align:center;
+  color:#90A179;
+}
+.c2 li{
+	float:left;
+	display:inline;
+}
+.a_btn_standard2 {
+			  font:normal  bold 15px "微软雅黑"; 
+			  width: 100px;
+			  height: 35px; 
+			  line-height:30px;
+			  display: block;
+			  text-align: center;
+			  cursor: pointer; 
+			  color:#FFFFFF;
+			  background-color: #778466;
+			  padding-top:3px;
+			  margin-left:40px;
+			  margin-top:21px;
+			  transition: all 0.50s ease-in-out;
+			  -webkit-transition: all 0.50s ease-in-out;
+			  -moz-transition: all 0.50s ease-in-out;
+			  outline: none; 
+			  -moz-border-radius: 5px; 
+			  -webkit-border-radius: 5px;
+			  border-radius: 5px; 
+			  filter: progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=2); /*ie*/ }
+.a_btn_standard2:hover { 
+			  width: 100px;
+			  height: 40px; 
+			  line-height: 35px; 
+			  display: block; 
+			  cursor: pointer;
+			  text-align: center; 
+			  color:#FFFFFF;
+			  text-decoration:none;
+}
+.s2{
+  position:absolute;
+  clip:rect(0 0 0 0);
+}
+.a_btn_file1 {  
+			  font:normal  bold 15px "微软雅黑"; 
+			  width: 100px; 
+			  height: 35px; 
+			  line-height:30px;
+			  padding-top:3px;
+			  display: block;
+			  text-align: center; 
+			  cursor: pointer; 
+			  color: #FFFFFF;
+			  background-color: #968E42;
+			  margin-top:21px;
+              margin-left:50px;
+			  transition: all 0.50s ease-in-out;
+			  -webkit-transition: all 0.50s ease-in-out;
+			  -moz-transition: all 0.50s ease-in-out; 
+			  outline: none; 
+			  -moz-border-radius: 5px; 
+			  -ebkit-border-radius: 5px;
+			  border-radius: 5px; 
+			  filter: progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=2); /*ie*/ }
+.a_btn_file1:hover {  
+			  width: 100px; 
+			  height: 40px; 
+			  line-height: 35px;
+			  display: block; 
+			  cursor: pointer;
+			  text-align: center;
+			  color: white;
+			  text-decoration:none;
+}
+#div8{
+  float:left;
+  height:190px;
+  width:330px;
+  margin-top:15px;
+  margin-left:100px;
+  margin-bottom:50px;
+  border:1px black;
+  background-color:#7DB6C1;
+}
+P.t5{
+  padding-top:20px;
+  font:normal bold 24px "微软雅黑";
+  text-align:center;
+  color:#627177;
+}
+p.t6{
+  font:normal bold 14px "微软雅黑";
+  text-align:center;
+  color:#6F8991;
+}
+.c3 li{
+	float:left;
+	display:inline;
+}
+.a_btn_standard3 {
+			  font:normal  bold 15px "微软雅黑"; 
+			  width: 100px;
+			  height: 35px; 
+			  line-height:30px;
+			  display: block;
+			  text-align: center;
+			  cursor: pointer; 
+			  color:#FFFFFF;
+			  background-color: #618391;
+			  padding-top:3px;
+			  margin-left:40px;
+			  margin-top:21px;
+			  transition: all 0.50s ease-in-out;
+			  -webkit-transition: all 0.50s ease-in-out;
+			  -moz-transition: all 0.50s ease-in-out;
+			  outline: none; 
+			  -moz-border-radius: 5px; 
+			  -webkit-border-radius: 5px;
+			  border-radius: 5px; 
+			  filter: progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=2); /*ie*/ }
+.a_btn_standard3:hover { 
+			  width: 100px;
+			  height: 40px; 
+			  line-height: 35px; 
+			  display: block; 
+			  cursor: pointer;
+			  text-align: center; 
+			  color:#FFFFFF;
+			  text-decoration:none;
+}
+.s3{
+  position:absolute;
+  clip:rect(0 0 0 0);
+}
+.a_btn_file2 {  
+			  font:normal  bold 15px "微软雅黑"; 
+			  width: 100px; 
+			  height: 35px; 
+			  line-height:30px;
+			  padding-top:3px;
+			  display: block;
+			  text-align: center; 
+			  cursor: pointer; 
+			  color: #FFFFFF;
+			  background-color: #6F86BF;
+			  margin-top:21px;
+              margin-left:50px;
+			  transition: all 0.50s ease-in-out;
+			  -webkit-transition: all 0.50s ease-in-out;
+			  -moz-transition: all 0.50s ease-in-out; 
+			  outline: none; 
+			  -moz-border-radius: 5px; 
+			  -ebkit-border-radius: 5px;
+			  border-radius: 5px; 
+			  filter: progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=2); /*ie*/ }
+.a_btn_file2:hover {  
+			  width: 100px; 
+			  height: 40px; 
+			  line-height: 35px;
+			  display: block; 
+			  cursor: pointer;
+			  text-align: center;
+			  color: white;
+			  text-decoration:none;
+}
+.bottom{
+clear:both;
+margin-top:50px;
+text-align:right;
+padding:10px 0;
+line-height:20px;
+color:#666;
+border-top:black 1px solid;
+}
+.bottom a{
+margin:0 7px;
+color:#666;
+}
+.bottom a:hover{
+color:#000;
+text-decoration:underline;
+}
